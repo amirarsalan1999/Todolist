@@ -1,0 +1,64 @@
+html{
+    direction: rtl;
+    font-size: 100%;
+}
+*{box-sizing: border-box; -webkit-box-sizing: border-box; -moz-box-sizing: border-box;}
+body{
+    background-color: #FC427B;
+}
+/*              add todo style              */
+#container{
+    width: fit-content;
+    margin: 0 auto;
+    padding: 1.5rem 1.5rem 1rem 1.5rem;
+    margin-top: 4rem;
+    background-color: rgb(18, 203, 196);
+    border-radius: 10px;
+    box-shadow: 2px 2px 14px rgb(0, 0, 0, .3), -2px -2px 14px rgb(0, 0, 0, .3);
+}
+#container input{
+    direction: rtl;
+    width: 250px;
+    padding: .4rem .5rem;
+    border-radius: 20px;
+    outline: none !important;
+    border: none;
+}
+#container i{
+    display: block;
+    width: fit-content;
+    margin: 0 auto;
+    margin-top: 1rem;
+    padding: .5rem;
+    background-color: #12CBC4;
+    color: #fff;
+    outline: none !important;
+    border: 2px solid #fff;
+    border-radius: 50px;
+    box-shadow: 1px 1px 5px rgb(0, 0, 0, .3), -1px -1px 5px rgb(0, 0, 0, .3);
+    transition: all .3s;
+}
+#container i:hover{
+    border: 2px solid rgb(0, 0, 0, .4);
+    background-color: #fff;
+    color: #12CBC4;
+}
+/*                   todo-list style                 */
+
+#list{
+    width: fit-content;
+    margin: 0 auto;
+    margin-top: 5rem;
+}
+#list li{
+    display: flex;
+    justify-content: space-between;
+    min-width: 280px;
+    padding: .7rem .5rem;
+    font-size: 1.2rem;
+    text-align: right;
+    letter-spacing: .08rem;
+    background-color: rgba(0, 0, 0, 0.664);
+    color: #fff;
+    border-bottom: 1px solid rgb(255, 255, 255, .7);
+}
